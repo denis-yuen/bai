@@ -3,6 +3,15 @@ class: CommandLineTool
 cwlVersion: v1.0
 doc: bai
 id: bai
+doc: |
+    ![build_status](https://quay.io/repository/collaboratory/dockstore-tool-bamstats/status)
+    A Docker container for the BAMStats command. See the [BAMStats](http://bamstats.sourceforge.net/) website for more information.
+
+dct:creator:
+  "@id": "http://orcid.org/0000-0002-7681-6415"
+  foaf:name: Brian O'Connor
+  foaf:mbox: "mailto:briandoconnor@gmail.com"
+
 inputs:
   nameBai:
     doc: ''
